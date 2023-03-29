@@ -37,7 +37,7 @@ public class Product {
     }
 
     public String toString(){
-        return getName() + "(" + getId() + ") -> " + getPrice() + "(" + getQuantity() + ")    <- " + getSupplier();
+        return "{id=" + this.id + ", name=" + this.name + ", price=" + this.price + ", quantity= " + this.quantity + "}";
     }
 
     public String getName() {
